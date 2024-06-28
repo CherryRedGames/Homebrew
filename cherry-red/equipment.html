@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment</title>
+    <link rel="stylesheet" href="personal-styles/equipment-style.css">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="home-page.html">
+            <img class="logo" src="images/cherry_red_games_logo.png" alt="Logo"> 
+        </a>
+        <h1>Equipment</h1>
+    </header>
+    <main class="home-grid"></main>
+    <div class="main_container">
+        <div id="nav">
+            <ul>
+                <li> <a href="home-page.html">Home</a> </li>
+                <li> <a href="artificer.html">Artificer</a> </li>
+                <li> <a href="cleric.html">Cleric</a> </li>
+                <li> <a href="druid.html">Druid</a> </li>
+                <li> <a href="fighter.html">Fighter</a></li>
+                <li> <a href="monk.html">Monk</a></li>
+                <li> <a href="ranger.html">Ranger</a></li>
+                <li> <a href="rogue.html">Rogue</a></li>
+                <li> <a href="warlock.html">Warlock</a></li>
+                <li> <a href="equipment.html">Equipment</a></li>
+                <li> <a href="fightingstyles.html">Fighting Styles</a></li>
+                <li> <a href="homebrew_rules.html">Homebrew Rules</a> </li>
+                <li> <a href="weaponspecialty.html">Weapon Specialty</a></li>
+            </ul>
+        </div>
+        <section class="equipment" id="armorshieldsection">
+            <h1>Armor & Shields</h1>
+            <p>To be able to wear certain types of armor or wield certain shields, you may need your Strength score to meet a minimum number as shown in the "Strength Requirement" column. As a note, you can wield a shield with one hand, but you can only benefit from one shield at a time.</p>
+            <table class="equipment_table" id="armorshieldstable">
+                <tr>
+                    <th>Name</th>
+                    <th>Cost</th>
+                    <th>AC</th>
+                    <th>Strength Requirement</th>
+                    <th>Stealth</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td colspan="6">Light Armor</td>
+                </tr>
+                <tr>
+                    <td>Leather</td>
+                    <td>25sp</td>
+                    <td>11 + Dex Mod</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>10 lb.</td>
+                </tr>
+                <tr>
+                    <td>Studded Leather</td>
+                    <td>40sp</td>
+                    <td>12 + Dex Mod</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>13 lb.</td>
+                </tr>
+                <tr>
+                    <td colspan="6">Medium Armor</td>
+                </tr>
+                <tr>
+                    <td>Hide</td>
+                    <td>25sp</td>
+                    <td>13 + Dex Mod (max 2)</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>12 lb.</td>
+                </tr>
+                <tr>
+                    <td>Chain Shirt</td>
+                    <td>45sp</td>
+                    <td>14 + Dex Mod (max 2)</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>20 lb.</td>
+                </tr>
+                <tr>
+                    <td>Scale Mail</td>
+                    <td>50sp</td>
+                    <td>15 + Dex Mod (max 2)</td>
+                    <td>-</td>
+                    <td>Disadvantage</td>
+                    <td>45 lb.</td>
+                </tr>
+                <tr>
+                    <td>Breastplate</td>
+                    <td>80sp</td>
+                    <td>15 + Dex Mod (max 2)</td>
+                    <td>14</td>
+                    <td>-</td>
+                    <td>20 lb.</td>
+                </tr>
+                <tr>
+                    <td>Half Plate</td>
+                    <td>120sp</td>
+                    <td>16 + Dex Mod (max 2)</td>
+                    <td>16</td>
+                    <td>Disadvantage</td>
+                    <td>40 lb.</td>
+                </tr>
+                <tr>
+                    <td colspan="6">Heavy Armor</td>
+                </tr>
+                <tr>
+                    <td>Ring Mail</td>
+                    <td>60sp</td>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>Disadvantage</td>
+                    <td>40 lb.</td>
+                </tr>
+                <tr>
+                    <td>Chain Mail</td>
+                    <td>100sp</td>
+                    <td>17</td>
+                    <td>14</td>
+                    <td>Disadvantage</td>
+                    <td>55 lb.</td>
+                </tr>
+                <tr>
+                    <td>Splint</td>
+                    <td>150sp</td>
+                    <td>18</td>
+                    <td>16</td>
+                    <td>Disadvantage</td>
+                    <td>60 lb.</td>
+                </tr>
+                <tr>
+                    <td>Full Plate</td>
+                    <td>250sp</td>
+                    <td>19</td>
+                    <td>18</td>
+                    <td>Disadvantage</td>
+                    <td>65 lb.</td>
+                </tr>
+                <tr>
+                    <td colspan="6">Shields</td>
+                </tr>
+                <tr>
+                    <td>Buckler Shield</td>
+                    <td>20sp</td>
+                    <td>+1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>3 lb.</td>
+                </tr>
+                <tr>
+                    <td>Standard Shield</td>
+                    <td>35sp</td>
+                    <td>+2</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>5 lb.</td>
+                </tr>
+                <tr>
+                    <td>Bouche Shield</td>
+                    <td>45sp</td>
+                    <td>+3, Special</td>
+                    <td>16</td>
+                    <td>Disadvantage</td>
+                    <td>8 lb.</td>
+                </tr>
+                <tr>
+                    <td>Kite Shield</td>
+                    <td>85sp</td>
+                    <td>1/2 Cover</td>
+                    <td>16</td>
+                    <td>Disadvantage</td>
+                    <td>15 lb.</td>
+                </tr>
+                <tr>
+                    <td>Tower Shield</td>
+                    <td>140sp</td>
+                    <td>3/4 Cover</td>
+                    <td>18</td>
+                    <td>Disadvantage</td>
+                    <td>30 lb.</td>
+                </tr>
+            </table>
+            <h2>Cover</h2>
+            <ul>
+                <li> <p>Half Cover. A creature with half cover has a +2 bonus to their AC and Dexterity saving throws.</p> </li>
+                <li> <p>Three-Quarters Cover. A creature with three-quarters cover has a +5 bonus to their AC and Dexterity saving throws.</p> </li>
+            </ul>
+            <h2>Special</h2>
+            <p>You must be proficient with the shield and have the required Strength to use this property.</p>
+            <ul>
+                <li> <p>Bouche Shield. A shield with a hole (or "mouth") where one can rest their lance or another, similar weapon. While you have this shield equipped, you can use a weapon with the Two-Handed property. However, even if you're wielding a weapon with the Versatile property with this shield, you cannot use the Versatile property.</p> </li>
+            </ul>
+        </section>
+        <section class="equipment" id="weaponsection">
+            <h1>Weapons</h1>
+            <table class="equipment_table" id="weaponstable">
+                <tr>
+                    <th>Name</th>
+                    <th>Cost</th>
+                    <th>Damage</th>
+                    <th>Properties</th>
+                    <th>Group</th>
+                </tr>
+                <tr>
+                    <td colspan="5">Simple Melee Weapons</td>
+                </tr>
+                <tr>
+                    <td>Club</td>
+                    <td>2sp</td>
+                    <td>1d6 bludgeoning</td>
+                    <td>Light</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Dagger</td>
+                    <td>5sp</td>
+                    <td>1d4 piercing</td>
+                    <td>Finesse, Light, Thrown (range 20)</td>
+                    <td>Rogue</td>
+                </tr>
+                <tr>
+                    <td>Greatclub</td>
+                    <td>7sp</td>
+                    <td>1d8 bludgeoning</td>
+                    <td>Two-Handed</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Handaxe</td>
+                    <td>10sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Light, Thrown (range 30)</td>
+                    <td>Axe</td>
+                </tr>
+                <tr>
+                    <td>Javelin</td>
+                    <td>7sp</td>
+                    <td>1d6 piercing</td>
+                    <td>Thrown (range 45)</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Mace</td>
+                    <td>10sp</td>
+                    <td>1d6 bludgeoning</td>
+                    <td>-</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Quarterstaff</td>
+                    <td>7sp</td>
+                    <td>1d6 bludgeoning</td>
+                    <td>Versatile (1d8)</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Sickle</td>
+                    <td>5sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light</td>
+                    <td>Scythe</td>
+                </tr>
+                <tr>
+                    <td>Spear</td>
+                    <td>15sp</td>
+                    <td>1d6 piercing</td>
+                    <td>Thrown (range 20), Versatile (1d8)</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Whip</td>
+                    <td>7sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Reach</td>
+                    <td>Whip</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Simple Ranged Weapons</td>
+                </tr>
+                <tr>
+                    <td>Crossbow</td>
+                    <td>45sp</td>
+                    <td>1d8 piercing</td>
+                    <td>Ammunition (range 80), Finesse, Two-Handed</td>
+                    <td>Crossbow</td>
+                </tr>
+                <tr>
+                    <td>Hand Crossbow</td>
+                    <td>35sp</td>
+                    <td>1d6 piercing</td>
+                    <td>Ammunition (range 40), Finesse, Light</td>
+                    <td>Crossbow</td>
+                </tr>
+                <tr>
+                    <td>Shortbow</td>
+                    <td>30sp</td>
+                    <td>1d6 piercing</td>
+                    <td>Ammunition (range 80), Finesse, Two-Handed</td>
+                    <td>Bow</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Martial Melee Weapons</td>
+                </tr>
+                <tr>
+                    <td>Battleaxe</td>
+                    <td>25sp</td>
+                    <td>1d8 slashing</td>
+                    <td>Versatile (1d10)</td>
+                    <td>Axe</td>
+                </tr>
+                <tr>
+                    <td>Bo Staff</td>
+                    <td>15sp</td>
+                    <td>1d8 bludgeoning</td>
+                    <td>Finesse, Reach, Versatile (1d10)</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Bullwhip</td>
+                    <td>15sp</td>
+                    <td>1d8 slashing</td>
+                    <td>Finesse, Reach</td>
+                    <td>Whip</td>
+                </tr>
+                <tr>
+                    <td>Chakram (x2)</td>
+                    <td>12sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light, Thrown (range 30)</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Flail</td>
+                    <td>20sp</td>
+                    <td>1d8 bludgeoning</td>
+                    <td>-</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Glaive</td>
+                    <td>25sp</td>
+                    <td>1d10 slashing</td>
+                    <td>Reach, Two-Handed</td>
+                    <td>Polearm</td>
+                </tr>
+                <tr>
+                    <td>Greataxe</td>
+                    <td>35sp</td>
+                    <td>1d12 slashing</td>
+                    <td>Two-Handed</td>
+                    <td>Axe</td>
+                </tr>
+                <tr>
+                    <td>Greatsword</td>
+                    <td>27sp</td>
+                    <td>2d6 slashing</td>
+                    <td>Reach, Two-Handed</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Halberd</td>
+                    <td>25sp</td>
+                    <td>1d10 piercing or slashing</td>
+                    <td>Reach, Two-Handed</td>
+                    <td>Polearm</td>
+                </tr>
+                <tr>
+                    <td>Kusarigama</td>
+                    <td>20sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Reach, Special, Two-Handed</td>
+                    <td>Scythe/Whip</td>
+                </tr>
+                <tr>
+                    <td>Lance</td>
+                    <td>27sp</td>
+                    <td>1d12 piercing</td>
+                    <td>Reach, Two-Handed (unless mounted)</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Longspear</td>
+                    <td>20sp</td>
+                    <td>1d10 piercing</td>
+                    <td>Reach, Two-Handed</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Longsword</td>
+                    <td>25sp</td>
+                    <td>1d8 slashing</td>
+                    <td>Versatile (1d10)</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Maul</td>
+                    <td>27sp</td>
+                    <td>2d6 bludgeoning</td>
+                    <td>Two-Handed</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Morningstar</td>
+                    <td>20sp</td>
+                    <td>1d8 piercing</td>
+                    <td>-</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Nunchucks</td>
+                    <td>10sp</td>
+                    <td>2d4 bludgeoning</td>
+                    <td>Finesse, Light</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Rapier</td>
+                    <td>25sp</td>
+                    <td>1d8 piercing</td>
+                    <td>Finesse</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Sais (x2)</td>
+                    <td>15sp</td>
+                    <td>1d6 piercing</td>
+                    <td>Finesse, Light</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Scimitar</td>
+                    <td>17sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light</td>
+                    <td>Rogue/Sword</td>
+                </tr>
+                <tr>
+                    <td>Scythe</td>
+                    <td>25sp</td>
+                    <td>1d10 slashing</td>
+                    <td>Finesse, Reach, Two-Handed</td>
+                    <td>Scythe</td>
+                </tr>
+                <tr>
+                    <td>Shortsword</td>
+                    <td>20sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light, Versatile (1d8)</td>
+                    <td>Sword</td>
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>15sp</td>
+                    <td>1d8 piercing</td>
+                    <td>Thrown (range 20), Versatile (1d10)</td>
+                    <td>Spear</td>
+                </tr>
+                <tr>
+                    <td>Warhammer</td>
+                    <td>25sp</td>
+                    <td>1d10 bludgeoning</td>
+                    <td>Versatile (1d12)</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td>Warpick</td>
+                    <td>27sp</td>
+                    <td>1d10 piercing</td>
+                    <td>Versatile (1d12)</td>
+                    <td>Club</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Martial Ranged Weapons</td>
+                </tr>
+                <tr>
+                    <td>Heavy Crossbow</td>
+                    <td>50sp</td>
+                    <td>1d10 piercing</td>
+                    <td>Ammunition (range 120), Finesse, Two-Handed</td>
+                    <td>Crossbow</td>
+                </tr>
+                <tr>
+                    <td>Longbow</td>
+                    <td>27sp</td>
+                    <td>1d8 piercing</td>
+                    <td>Ammunition (range 150), Finesse, Two-Handed</td>
+                    <td>Bow</td>
+                </tr>
+                <tr>
+                    <td>Shuriken (x6)</td>
+                    <td>7sp</td>
+                    <td>1d4 slashing</td>
+                    <td>Finesse, Thrown (range 20)</td>
+                    <td>Monk/Rogue</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Unconventional Melee Weapons</td>
+                </tr>
+                <tr>
+                    <td>Arm Blades (x2)</td>
+                    <td>20sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Special</td>
+                    <td>Rogue</td>
+                </tr>
+                <tr>
+                    <td>Boomerang</td>
+                    <td>7sp</td>
+                    <td>1d4 bludgeoning</td>
+                    <td>Finesse, Light, Special, Thrown (range 30)</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Brass Knuckles (x2)</td>
+                    <td>12sp</td>
+                    <td>1d4 bludgeoning</td>
+                    <td>Finesse, Light, Special</td>
+                    <td>Monk</td>
+                </tr>
+                <tr>
+                    <td>Lacerating Ribbon</td>
+                    <td>15sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light, Special</td>
+                    <td>Monk/Rogue</td>
+                </tr>
+                <tr>
+                    <td>Serrated Handfan</td>
+                    <td>10sp</td>
+                    <td>1d6 slashing</td>
+                    <td>Finesse, Light, Special</td>
+                    <td>Monk/Rogue</td>
+                </tr>
+                <tr>
+                    <td>Yo-Yo</td>
+                    <td>1sp</td>
+                    <td>2d4 bludgeoning</td>
+                    <td>Finesse, Reach, Special</td>
+                    <td>Monk/Whip</td>
+                </tr>
+            </table>
+            <h2>Unconventional Weapons</h2>
+            <p>These weapons are rarely used on the battlefield. However, in the right hands, they can be highly effective. You won't find them in any armory, but you might find them as old heirlooms or as items sold in a trinket shop. To be proficient with these weapons, you must have the Weapon Specialty feat for their weapon group.</p>
+            <h2>Range</h2>
+            <p>A weapon’s range dictates how far away you can be from your target when making an attack. To make a ranged attack without disadvantage, you must be at least 10 ft. away from the target (and any other hostile creatures), while remaining within the listed range.</p>
+            <p>Making a ranged attack against a creature while within 5 ft. of the target, within 5 ft. of a hostile creature, or beyond the weapon’s listed range is at disadvantage. The maximum range that you can attempt to hit a creature from with a ranged attack is equal to twice the listed range (this is considered to be long range for feats such as the Weapon Specialty: Bow Weapons feat).</p>
+            <p>For example, because the Thrown range of a dagger is 20 ft., attacking a target that is 20 ft. away is rolled as normal. If a creature tried throwing a dagger beyond that range (up to 40 ft.), the attack roll would be at disadvantage.</p>
+            <h2>Special Property</h2>
+            <p>You must be proficient in a weapon to use its Special property.</p>
+            <ul>
+                <li> <p>Arm Blades. A pair of blades that are tied to your forearm to slash at foes. If you wear one arm blade on each of your arms, your AC is increased by a total of 1. While wearing these weapons, you cannot wield a shield, use any weapons with the two-handed property, or use the versatile property of a weapon.</p></li>
+                <li> <p>Boomerang. When you take the attack action with this weapon, you can also choose to expend your bonus action. When you do, you make two attack rolls instead of one per attack- but both rolls must be against the same creature. The first attack is the boomerang going away from you and the second one is as it returns to you. However, you do not add your Strength or Dexterity modifier to the damage roll on the second (returning) attack. Immediately after the second attack, it returns to your hand- allowing you to use it again if you can. So, if you have the Extra Attack feature, you make four attacks instead of two as your Attack action</p></li>
+                <li> <p>Brass Knuckles. Whenever you make an unarmed attack and hit a foe, you can choose to add this weapon's damage dice to your damage roll.</p></li>
+                <li> <p>Kusarigama. Once per turn, when you hit a Large or smaller creature with this weapon, you can force that creature to make a Strength saving throw (DC 8 + your Strength or Dexterity modifier + your proficiency bonus). On a failed saving throw, the creature is pulled to an unoccupied space adjacent to you.</p> </li>
+                <li> <p>Lacerating Ribbon. Instead of using your Strength or Dexterity modifier for this weapon's attack and damage rolls, you can choose to use your Charisma modifier instead.</p></li>
+                <li> <p>Serrated Handfan. A durable, ornate handfan with bladed edges. As a bonus action, you can attempt to use the fan to create a gust of wind against a Medium-sized or smaller creature within 10 ft. of you. That creature must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength or Dexterity modifier (minimum 1)). On a failed saving throw, the creature is forced 10 ft. back and knocked Prone. On a successful saving throw, they're only forced 5 ft. back.</p></li>
+                <li> <p>Yo-Yo. Once per turn, when you hit a Large or smaller creature with this weapon, you can force that creature to make a Strength saving throw (DC 8 + your Strength or Dexterity modifier + your proficiency bonus). On a failed saving throw, the creature is pulled to an unoccupied space adjacent to you.</p></li>
+            </ul>
+        </section>
+        <section class="equipment" id="apothecary">
+            <h1>Apothecary</h1>
+            <table class="equipment_table" id="a_table">
+                <tr>
+                    <th>Item</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td colspan="2">General Items</td>
+                </tr>
+                <tr>
+                    <td>Acid (vial)</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Alchemist's Fire</td>
+                    <td>15sp</td>
+                </tr>
+                <tr>
+                    <td>Antitoxin</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Poison (basic)</td>
+                    <td>15sp</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Potions</td>
+                </tr>
+                <tr>
+                    <td>Potion of Growth</td>
+                    <td>30sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Healing (Common)</td>
+                    <td>15sp</td>
+                </tr>
+                <tr>
+                    <td>Greater Potion of Healing (Uncommon)</td>
+                    <td>30sp</td>
+                </tr>
+                <tr>
+                    <td>Superior Potion of Healing (Rare)</td>
+                    <td>45sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Love</td>
+                    <td>20sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Luck</td>
+                    <td>25sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Polymorph (Uncommon-Very Rare)</td>
+                    <td>30-60sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Purification</td>
+                    <td>20sp</td>
+                </tr>
+                <tr>
+                    <td>Potion of Shrinking</td>
+                    <td>30sp</td>
+                </tr>
+            </table>
+            <h2>Acid (vial)</h2>
+            <p>You can splash the contents on a creature within 5 ft. of you or throw the vial up to 20 ft. and cause it to shatter. Either way, make a ranged attack against the creature, treating the vial as an improvised weapon. On a hit, the creature takes 2d4 acid damage. The acid continues to burn the creature for 1d4+1 turns.</p>
+            <h2>Alchemist's Fire</h2>
+            <p>You can splash the contents on a creature within 5 ft. of you or throw the flask up to 20 ft. and cause it to shatter. Either way, make a ranged attack against the creature, treating the flask as an improvised weapon. On a hit, the creature suffers 2d6 fire damage at the start of each of its turns for 1d4 turns or until a creature uses an action to snuff out the flames.</p>
+            <h2>Antitoxin</h2>
+            <p>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</p>
+            <h2>Poison (basic)</h2>
+            <p> It takes an action to apply to a weapon or 5 pieces of ammunition. A creature hit with a melee weapon or piece of ammunition coated in this poison must make a DC 12 Constitution saving throw, taking 1d6 poison dmg on a failed saving throw. Once applied on a weapon or ammunition, poison retains potency for 1 minute.</p>
+            <h2>Potion of Growth</h2>
+            <p>After drinking the potion, the creature’s size doubles in all dimensions, and its weight is multiplied by eight for the next 1d4 hours. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. While enlarged this way, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deals 1d4 extra damage.</p>
+            <h2>Potion of Healing (Common)</h2>
+            <p>A creature that drinks this potion heals 2d4+2 hit points.</p>
+            <h2>Greater Potion of Healing (Uncommon)</h2>
+            <p>A creature that drinks this potion heals 4d4+4 hit points.</p>
+            <h2>Superior Potion of Healing (Rare)</h2>
+            <p>A creature that drinks this potion heals 8d4+8 hit points.</p>
+            <h2>Potion of Love</h2>
+            <p>The next time you see a creature within 10 minutes after drinking this philter, you become Charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</p>
+            <h2>Potion of Luck</h2>
+            <p>After drinking this potion, you gain 2 luck points- which last up to 1 hour. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw. You can also spend one luck point when an attack roll is made against you. Roll a d20 and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</p>
+            <h2>Potion of Polymorph (Uncommon-Very Rare)</h2>
+            <p>After drinking the potion, the creature falls under the Polymorph spell for an hour. The highest CR of the creature they can transform into is 2 for uncommon, 3 for rare, and 4 for very rare. The cost starts at 30sp for an uncommon potion and increases by 15sp for each rarity.</p>
+            <h2>Potion of Purification</h2>
+            <p>After drinking the potion, the creature falls under the Lesser Restoration spell.</p>
+            <h2>Potion of Shrinking</h2>
+            <p>After drinking the potion, the creature’s size halves in all dimensions, and its weight is divided by eight for the next 1d4 hours. This growth decreases its size by one category - from Large to Medium, for example. While shrunk this way, the target also has advantage on Stealth checks and Dexterity saving throws. The creature’s AC also increases by 2.</p>
+        </section>
+        <section class="equipment" id="general">
+            <h1>General Store</h1>
+            <table class="equipment_table" id="g_table">
+                <tr>
+                    <th>Item</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td colspan="2">General</td>
+                </tr>
+                <tr>
+                    <td>Artisan's Tools (any)</td>
+                    <td>20sp</td>
+                </tr>
+                <tr>
+                    <td>Ball Bearings (bag of 1,000)</td>
+                    <td>1sp</td>
+                </tr>
+                <tr>
+                    <td>Book</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Bottle (glass)</td>
+                    <td>5cp</td>
+                </tr>
+                <tr>
+                    <td>Clothes (common)</td>
+                    <td>3sp</td>
+                </tr>
+                <tr>
+                    <td>Clothes (fine)</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Clothes (traveler's)</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Hourglass</td>
+                    <td>1sp</td>
+                </tr>
+                <tr>
+                    <td>Ink & Quill</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Parchment (10 sheets)</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Perfume</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Pocketwatch</td>
+                    <td>15sp</td>
+                </tr>
+                <tr>
+                    <td>Soap</td>
+                    <td>5cp</td>
+                </tr>
+                <tr>
+                    <td>Vial</td>
+                    <td>1sp</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Gaming Sets</td>
+                </tr>
+                <tr>
+                    <td>Backgammon Set</td>
+                    <td>1sp</td>
+                </tr>
+                <tr>
+                    <td>Dice Set</td>
+                    <td>5cp</td>
+                </tr>
+                <tr>
+                    <td>Dragonchess Set</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Playing Cards</td>
+                    <td>5cp</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Traveling</td>
+                </tr>
+                <tr>
+                    <td>Backpack</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Bedroll</td>
+                    <td>3sp</td>
+                </tr>
+                <tr>
+                    <td>Crowbar</td>
+                    <td>7sp</td>
+                </tr>
+                <tr>
+                    <td>Hunting Trap</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Lantern (bullseye)</td>
+                    <td>15sp</td>
+                </tr>
+                <tr>
+                    <td>Lantern (hooded)</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Mess Kit</td>
+                    <td>3sp</td>
+                </tr>
+                <tr>
+                    <td>Oil (flask)</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Rope (50 ft.)</td>
+                    <td>5sp</td>
+                </tr>
+                <tr>
+                    <td>Shovel</td>
+                    <td>1sp</td>
+                </tr>
+                <tr>
+                    <td>Tent (2-person)</td>
+                    <td>10sp</td>
+                </tr>
+                <tr>
+                    <td>Tent (4-person)</td>
+                    <td>25sp</td>
+                </tr>
+                <tr>
+                    <td>Tinderbox</td>
+                    <td>2cp</td>
+                </tr>
+                <tr>
+                    <td>Torch</td>
+                    <td>5cp</td>
+                </tr>
+                <tr>
+                    <td>Waterskin</td>
+                    <td>7cp</td>
+                </tr>
+                <tr>
+                    <td>Whetstone</td>
+                    <td>5cp</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="disclaimer">
+                <p>Cherry Red Games, 2024</p>
+            </div>
+            <div id="SRD">
+                <h1>5e SRD Content</h1>
+                <p>This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at:</p>
+                <p> <a href="https://dnd.wizards.com/resources/systems-reference-document">Reference Document</a> </p>
+                <p>The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License and available at:</p>
+                <p> <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons</a></p>
+                <p> </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
